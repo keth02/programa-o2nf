@@ -16,7 +16,7 @@
         height: 351px;
         left: 1000px;
         top: 305px;
-        background: url(img_carros.jpeg);
+        background: url(imggrande.png);
         mix-blend-mode: darken;
     }
     .felozes-carros{
@@ -169,3 +169,7 @@
         overflow: hidden;
     
     }
+    
+    
+    
+    
