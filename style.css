@@ -152,23 +152,7 @@
     top: 1771px;
     }
     
-    .retangulo{
-        position: absolute;
-        width: 340px;
-        height: 50px;
-        left: 255px;
-        top: 400px;
-        text-align: center;
-        background: #ff4500;
-        margin: 0px;
-        padding: 10px;
-        border: 1px solid #ffffff;
-        transform: translate(-50%,-50%);
-        border: 5px;
-        box-shadow: 0 20px 35px #ff4500;
-        overflow: hidden;
     
-    }
     
     
     
