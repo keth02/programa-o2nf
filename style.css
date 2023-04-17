@@ -1,38 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>filme</title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-</head>
-<body>
-    <header>
-        <div class="center">
-            <div class="logo"><img src="logo.png" alt=""></div><!--logo-->
-            <div class="menu">
-                <a href="#">Home</a>
-            </div><!---menu-->
-        </div><!--center-->
-    </header>
-    <div style="height: 9000px;background-color: blueviolet;>
-    </div>
-    <section class="sobre">
-    <div class="extras">
-        <img src="imggrande.png" alt="imagem-grande">
-        <div class="social-media"></div>
-        <img src="instagram.png" alt="logo-instagram">
-        <img src="facebook.png" alt="logo-facebook">
-    </div><!--extras-->
-    <div class="center">
-        <div class="texto-sobre">
-            <h1><span style="color: aqua;"></span> Velozes<br>e<br>Furiosos<br>7</h1>
-            <p>Velozes e Furiosos 7 acompanha Dom (Vin Diesel), Brian (Paul Walker), Letty (Michelle Rodriguez) e o resto da equipe após os acontecimentos em Londres. Apesar de terem suas chances de voltar para os Estados Unidos e recomeçarem suas vidas, a tranquilidade do grupo é destruída quando Deckard Shaw (Jason Statham), um assassino profissional, quer vingança pela morte de seu irmão. Agora, a equipe tem que se reunir para impedir este novo vilão. Mas dessa vez, não é só sobre ser veloz. A luta é pela sobrevivência.</p>
-            <button>Assista<br>aqui</button>
-        </div>
-    </div>
-    </section>
-</body>
-</html>
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    max-width: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450%;
+    right: -500%;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #b740bf;
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    width: 5px;
+    margin: 5px 0;
+}
+
+.texto-sobre{
+    margin-top: 100px ;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #b740bf;
+    color:white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
