@@ -1,95 +1,171 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-
-.center{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 2%;
-
-}
-
-html,body{
-    height: 100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-header{
-    height: 200px;
-    padding: 20px 0;
-}
-
 .logo{
-    width: 50%;
-}
-
-.menu{
-    width: 50%;
-    text-align: right;
-
-}
-
-.menu a{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    max-width: 15px;
-}
-
-section.sobre{
-    height: calc(100% - 200px);
-    position: relative;
-}
-
-.extras{
     position: absolute;
-    bottom: -450%;
-    right: -500%;
-    width: 1200px;
-    height: 1200px;
-    border-radius: 50%;
-    background-color: #b740bf;
-}
-
-.social-media{
+    width: 140px;
+    height: 105px;
+    left: 59px;
+    top: 10px;
+    }
+    .logo-velozes{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        
+    }
+    .carros-imagem{
+        position: absolute;
+        width: 668px;
+        height: 351px;
+        left: 1000px;
+        top: 305px;
+        background: url(img_carros.jpeg);
+        mix-blend-mode: darken;
+    }
+    .felozes-carros{
+        color: black;
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        padding: 24px 0;
+        font-family: 'Lexend Mega', sem serifa;
+    }
+    .velozes-div-conteudo{
+        width: 30%;
+    }
+    .velozes-titulo{
+        font-family: 'Lexend Mega';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        position: absolute;
+        width: 420px;
+        height: 37px;
+        left: 82px;
+        top: 206px;
+    }
+    .velozes-texto-1{
+        position: absolute;
+    width: 404px;
+    height: 37px;
+    left: 75px;
+    top: 258px;
+    font-family: 'Lexend Mega';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    }
+    
+    
+    .jdm-imagem-2{
     position: absolute;
-    right: 510px;
-    top: 200px;
-}
-
-.social-media img{
-    display: block;
-    width: 5px;
-    margin: 5px 0;
-}
-
-.texto-sobre{
-    margin-top: 100px ;
-}
-
-.texto-sobre h1{
-    font-size: 50px;
-}
-
-.texto-sobre p{
-    margin: 20px 0;
-    color: black;
-    font-size: 14px;
-    font-weight: bold;
-    max-width: 800px;
-}
-
-.texto-sobre button{
-    border: 0;
-    background-color: #b740bf;
-    color:white;
-    border-radius: 10px;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-}
+    width: 520px;
+    height: 256px;
+    left: 185px;
+    top: 811px;
+    }
+    .velozes-titulo-3{
+        position: absolute;
+    width: 420px;
+    height: 37px;
+    left: 510px;
+    top: 1154px;
+    }
+    .vin-diesel{     
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    left: 125px;
+    top: 1286px;
+    }
+    .paul-walker{
+        position: absolute;
+    width: 340px;
+    height: 340px;
+    left: 559px;
+    top: 1286px;
+    }
+    .mi-rodrigues{
+        position: absolute;
+    width: 340px;
+    height: 340px;
+    left: 984px;
+    top: 1286px;
+    
+    }
+    .legenda-1{
+        font-family: 'Lexend Mega';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    position: absolute;
+    width: 404px;
+    height: 37px;
+    left: 98px;
+    top: 1636px;
+    color: #000000;
+    }
+    .legenda-2{
+        font-family: 'Lexend Mega';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    position: absolute;
+    width: 404px;
+    height: 37px;
+    left: 515px;
+    top: 1636px;
+    color: #000000;
+    }
+    .legenda-3{
+        font-family: 'Lexend Mega';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    position: absolute;
+    width: 404px;
+    height: 37px;
+    left: 932px;
+    top: 1636px;
+    color: #000000;
+    }
+    .texto-final{
+        font-family: 'Lexend Mega';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    
+    position: absolute;
+    width: 400px;
+    height: 28px;
+    left: 600px;
+    top: 1771px;
+    }
+    
+    .retangulo{
+        position: absolute;
+        width: 340px;
+        height: 50px;
+        left: 255px;
+        top: 400px;
+        text-align: center;
+        background: #ff4500;
+        margin: 0px;
+        padding: 10px;
+        border: 1px solid #ffffff;
+        transform: translate(-50%,-50%);
+        border: 5px;
+        box-shadow: 0 20px 35px #ff4500;
+        overflow: hidden;
+    
+    }
