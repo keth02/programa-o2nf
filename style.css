@@ -1,159 +1,55 @@
-.logo{
-    position: absolute;
-    width: 140px;
-    height: 105px;
-    left: 59px;
-    top: 10px;
-    }
-    .logo-velozes{
-        color: rgb(0, 0, 0);
-        text-align: center;
-        
-    }
-    .carros-imagem{
-        position: absolute;
-        width: 668px;
-        height: 351px;
-        left: 900px;
-        top: 305px;
-        background: url(imggrande.png);
-        mix-blend-mode: darken;
-    }
-    .felozes-carros{
-        color: black;
-        display: flex;
-        justify-content: baseline;
-        align-items: center;
-        padding: 24px 0;
-        font-family: 'Lexend Mega', sem serifa;
-    }
-    .velozes-div-conteudo{
-        width: 30%;
-    }
-    .velozes-titulo{
-        font-family: 'Lexend Mega';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 35px;
-        line-height: 35px;
-        position: absolute;
-        width: 420px;
-        height: 37px;
-        left: 82px;
-        top: 206px;
-    }
-    .velozes-texto-1{
-        position: absolute;
-    width: 404px;
-    height: 37px;
-    left: 75px;
-    top: 270px;
-    font-family: 'Lexend Mega';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 32px;
-    color: white;
-    }
-    
-    
-    .jdm-imagem-2{
-    position: absolute;
-    width: 520px;
-    height: 256px;
-    left: 185px;
-    top: 811px;
-    }
-    .velozes-titulo-3{
-        position: absolute;
-    width: 420px;
-    height: 37px;
-    left: 510px;
-    top: 1154px;
-    }
-    .vin-diesel{     
-    position: absolute;
-    width: 340px;
-    height: 340px;
-    left: 125px;
-    top: 1286px;
-    }
-    .paul-walker{
-        position: absolute;
-    width: 340px;
-    height: 340px;
-    left: 559px;
-    top: 1286px;
-    }
-    .mi-rodrigues{
-        position: absolute;
-    width: 340px;
-    height: 340px;
-    left: 984px;
-    top: 1286px;
-    
-    }
-    .legenda-1{
-        font-family: 'Lexend Mega';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+body{
+    background-image: -moz-linear-gradient(#993399);
+    font-family: 'Comfortaa', cursive;
+} 
+
+.imagem-logo{
+    width: 7%;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho-telefone{
+    display: inline-block;
+    margin: 0 16;
+    font-size: 20px;
+}
+
+.imagemcatsdog{
+    width: 15%;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.sobre-div-conteudo{
+    width: 35%;
+
+} 
+.sobre-titulo{
+    padding: 20px 0;
+}
+
+.alana-dog{
+    width: 120px;
+}
+
+.pets-div{
     text-align: center;
-    
-    position: absolute;
-    width: 404px;
-    height: 37px;
-    left: 98px;
-    top: 1636px;
-    color: #000000;
-    }
-    .legenda-2{
-        font-family: 'Lexend Mega';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+}
+
+.adocao-titulos{
     text-align: center;
-    
-    position: absolute;
-    width: 404px;
-    height: 37px;
-    left: 515px;
-    top: 1636px;
-    color: #000000;
-    }
-    .legenda-3{
-        font-family: 'Lexend Mega';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    
-    position: absolute;
-    width: 404px;
-    height: 37px;
-    left: 932px;
-    top: 1636px;
-    color: #000000;
-    }
-    .texto-final{
-        font-family: 'Lexend Mega';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 35px;
-    
-    position: absolute;
-    width: 400px;
-    height: 28px;
-    left: 600px;
-    top: 1771px;
-    }
-    
-    
-    
-    
-    
-    
+    padding: 50px 0; 
+}
+
+.adocao-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
