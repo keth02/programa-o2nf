@@ -169,28 +169,3 @@ footer a, footer a:after {
   z-index: -1;
   border-radius: 5px;
   transition: all .5s;
-}
-.button2 {
-  display: inline-block;
-  font-size: 2em;
-  margin: .5em;
-  padding: .5em;
-  border-radius: 5px;
-  transition: all .5s;
-  filter: hue-rotate(0deg);
-  color: #FFF;
-  text-decoration: none;
-}
-/*END BASE BUTTON*/
-/*ROTATE*/
-.rot-360-noscoop:hover {
-  filter: hue-rotate(360deg);
-  transform: rotate(360deg);
-}
-.rot-135:hover {
-  filter: hue-rotate(135deg);
-}
-.rot-90:hover {
-  filter: hue-rotate(90deg);
-}
-/*END ROTATE*/
